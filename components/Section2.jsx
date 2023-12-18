@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { br,com ,disc} from "@/public/index";
+import { br,com ,disc} from "../public/index";
 // import Started from "./Started"
 
 

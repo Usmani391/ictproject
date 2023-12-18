@@ -4,7 +4,7 @@ import Navbar from "@/components/Nav";
 import Card from "@/components/card";
 import data from "@/constant/data";
 import { bga, building2, robot } from "../../public/index";
-import Resources from "../components/Resources";
+import Resources from "../../components/Resources";
 const Page = () => {
   return (
     <div className="w-full h-full">

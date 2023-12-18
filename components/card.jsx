@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { dart } from "@/public";
 const Card = ({ lan, y, inven, vers, uses, docs, log, youtub, frame }) => {
   return (
     <div

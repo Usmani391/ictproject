@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { boy, dev, disc, man, robot } from "@/public/index";
+import { boy, dev, disc, man, robot } from "../public/index";
 // import Started from "./Started";
 
 const Section3 = () => (

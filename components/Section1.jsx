@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { disc, men,man,man1,boy, robot, colorboy, mantb } from "@/public/index";
+import { disc, men,man,man1,boy, robot, colorboy, mantb } from "../public/index";
 // import Started from "./Started";
 
 const Hero = () => (
