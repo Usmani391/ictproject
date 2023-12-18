@@ -15,6 +15,7 @@
 }
 
 * {
+  -webkit-text-size-adjust:auto;
   scroll-behavior: smooth;
 }
 
@@ -31,7 +32,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {

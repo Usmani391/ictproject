@@ -3,7 +3,7 @@ import Image from "next/image";
 import { disc, robot } from "@/public/index";
 // import Started from "./Started";
 
-const Hero = () => (
+const Section3 = () => (
   <section id="home" className="flex justify-start items-start pt-24">
     <div className="xl:max-w-[1280px] mx-auto  w-full">
       <div
@@ -54,4 +54,4 @@ const Hero = () => (
   </section>
 );
 
-export default Hero;
+export default Section3;

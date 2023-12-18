@@ -1,18 +1,76 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#00040f",
+        secondary: "#00f6ff",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
+        second: {
+          100: "#e5fff8",
+          150: "#c1ffed",
+          200: "#9dffe3",
+          250: "#79fed9",
+          300: "#55fece",
+          350: "#31fec4",
+          400: "#0dfeb9",
+          450: "#01e5a4",
+          500: "#01c38d",
+          550: "#01ad7c",
+          600: "#01986d",
+          650: "#01845f",
+          700: "#017050",
+          750: "#005b42",
+          800: "#004733",
+          850: "#003324",
+          900: "#001e16",
+          DEFAULT: "#01c38d",
+        },
+        prim: {
+          100: "#f4f9fb",
+          150: "#cee6ed",
+          200: "#a9d2e0",
+          250: "#83bfd2",
+          300: "#5eabc5",
+          350: "#4094b0",
+          400: "#32758b",
+          450: "#245565",
+          500: "#17353f",
+          550: "#16323c",
+          600: "#142f38",
+          650: "#132c34",
+          700: "#112830",
+          750: "#10252c",
+          800: "#0f2228",
+          850: "#0d1f25",
+          900: "#0c1b21",
+          DEFAULT: "#17353f",
+        },
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
+  fontFamily: {
+    poppins: ["Poppins", "sans-serif"],
+  },
+  // },
+  screens: {
+    xs: "480px",
+    ss: "620px",
+    sm: "768px",
+    md: "1060px",
+    lg: "1200px",
+    xl: "1700px",
+  },
   plugins: [],
-}
+};
