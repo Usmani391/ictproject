@@ -3,7 +3,7 @@ const Footer = () => {
     // <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
 // <!-- Footer container -->
 <footer
-  className="bg-primary text-center text-white lg:text-left">
+  className="bg-primary text-center text-white lg:text-left bottom-0">
   <div
     className="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
     <div className="mr-12 hidden lg:block">

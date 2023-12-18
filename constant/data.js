@@ -60,30 +60,6 @@ const data=[
     "ref": "quickref.me/csharp"
   },
   {
-    "lang": "Ruby",
-    "yr": 1995,
-    "invent": "Yukihiro Matsumoto",
-    "ver": "Ruby 3.0",
-    "use": "Web development, scripting",
-    "doc": "https://www.ruby-lang.org/en/documentation/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/512px-Ruby_logo.svg.png",
-    "youtube": "https://www.youtube.com/playlist?list=PLgYiyoyNPrv_yNp5Pzsx0A3gQ8-tfg66j",
-    "fram": ["Ruby on Rails"],
-    "ref": "quickref.me/ruby"
-  },
-  {
-    "lang": "Swift",
-    "yr": 2014,
-    "invent": "Apple Inc.",
-    "ver": "Swift 5.6",
-    "use": "iOS/macOS app development",
-    "doc": "https://swift.org/documentation/",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/512px-Swift_logo.svg.png",
-    "youtube": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1YdahNsCLZdSVd8Mc2w3ph7",
-    "fram": ["UIKit", "SwiftUI"],
-    "ref": "quickref.me/swift"
-  },
-  {
     "lang": "Go",
     "yr": 2009,
     "invent": "Google",
@@ -162,7 +138,7 @@ const data=[
     "ver": "Dart 2.15",
     "use": "Web development, mobile app development (Flutter)",
     "doc": "https://dart.dev/guides",
-    "logo": "https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Dart-logo.png/600px-Dart-logo.png",
     "youtube": "https://www.youtube.com/playlist?list=PlfbcU8em_lZDc3opQ1mg4TPQaZWCP7FyF",
     "fram": ["Flutter"],
     "ref": "quickref.me/dart"
@@ -214,7 +190,31 @@ const data=[
     "youtube": "https://www.youtube.com/playlist?list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD",
     "fram": ["Cocoa", "UIKit"],
     "ref": "quickref.me/objectivec"
-  }
+  },
+  {
+    "lang": "Swift",
+    "yr": 2014,
+    "invent": "Apple Inc.",
+    "ver": "Swift 5.6",
+    "use": "iOS/macOS app development",
+    "doc": "https://swift.org/documentation/",
+    "logo": "https://developer.apple.com/swift/images/swift-logo.svg",
+    "youtube": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1YdahNsCLZdSVd8Mc2w3ph7",
+    "fram": ["UIKit", "SwiftUI"],
+    "ref": "quickref.me/swift"
+  },
+    {
+      "lang": "Ruby",
+      "yr": 1995,
+      "invent": "Yukihiro Matsumoto",
+      "ver": "Ruby 3.0",
+      "use": "Web development, scripting",
+      "doc": "https://www.ruby-lang.org/en/documentation/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/512px-Ruby_logo.svg.png",
+      "youtube": "https://www.youtube.com/playlist?list=PLgYiyoyNPrv_yNp5Pzsx0A3gQ8-tfg66j",
+      "fram": ["Ruby on Rails"],
+      "ref": "quickref.me/ruby"
+    },
 ]
 
 

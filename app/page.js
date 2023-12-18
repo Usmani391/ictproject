@@ -1,5 +1,5 @@
-import Banner from "@/components/Banner";
-import Top10 from "@/components/Top10";
+import Banner from "@/components/Section1";
+import Top10 from "@/components/Section4";
 import Section2 from "@/components/Section2";
 import Navbar from "@/components/Nav";
 import Section3 from "@/components/Section3";

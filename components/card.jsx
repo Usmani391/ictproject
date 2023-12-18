@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { dart } from "@/public";
 const Card = ({ lan, y, inven, vers, uses, docs, log, youtub, frame }) => {
   return (
     <div
       key={lan}
-      className="block my-5 max-w-[350px] pb-4 rounded-2xl bg-teal-100">
+      className="block my-5 max-w-[350px] flex-shrink-0 pb-4 rounded-2xl bg-white">
       <div className="relative  h-[320px] min-w-[200px] max-w-[350px] max-h-52 rounded-2xl ">
         <Image
           fill
