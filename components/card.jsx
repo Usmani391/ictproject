@@ -3,7 +3,7 @@ const Card = ({ lan, y, inven, vers, uses, docs, log, youtub, frame }) => {
   return (
     <div
       key={lan}
-      className="block my-5 max-w-[350px] flex-shrink-0 pb-4 rounded-2xl bg-white">
+      className="block my-5 max-w-[350px]  bg-opacity-50 pb-4 rounded-2xl bg-gray-800 text-white shadow-lg font-sans font-normal shadow-teal-400 ">
       <div className="relative  h-[320px] min-w-[200px] max-w-[350px] max-h-52 rounded-2xl ">
         <Image
           fill

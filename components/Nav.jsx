@@ -26,7 +26,7 @@ export default function Navbar({val}) {
         <>
           <div className="mx-auto w-11/12 px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center ">
-              <div className="absolute w-full border-b-4 h-14 border-teal-400  top-7 px-2 shadow-teal-100 inset-y-0 left-0 flex items-center justify-end sm:hidden">
+              <div className="absolute w-full    top-7 px-2 shadow-teal-100 inset-y-0 left-0 flex items-center justify-end sm:hidden">
                 {/* Mobile menu button menu for close and open*/}
                 <Disclosure.Button className="relative inline-flex items-start  justify-center rounded-md p-2 text-gray-100  shadow-sm shadow-teal-500 focus:text-teal-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-600">
                   <span className="absolute -inset-0.5" />

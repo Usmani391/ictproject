@@ -10,7 +10,7 @@ const Hero = () => (
       <div
         className="flex md:flex-row-reverse flex-col sm:py-16 py-2 xl:max-w-[1280px] w-full">
         <div
-          className="flex-1 flex justify-center items-center w-2/5 sm:mx-auto flex-col xl:px-0 sm:px-28   py-0 px-6">
+          className="flex-1 flex justify-center items-center sm:w-2/5 sm:mx-auto flex-col xl:px-0 sm:px-28   py-0 px-6">
           {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
             <Image src={disc} alt="Discount" className="w-[32px] h-[32px]" />
             <p className="font-poppins font-normal text-white ml-2">
