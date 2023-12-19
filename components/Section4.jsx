@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { br,com ,disc, women} from "../public/index";
+import { br,com ,disc, women,building2} from "../public/index";
 // import Started from "./Started"
 
 
