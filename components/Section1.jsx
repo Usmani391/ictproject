@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { disc, men,man,man1,boy, robot, colorboy, mantb } from "../public/index";
-// import Started from "./Started";
+import Started from "./Started";
 
 const Hero = () => (
   <section id="home" className="flex justify-start items-start pt-6">
@@ -24,7 +24,9 @@ const Hero = () => (
               <br className="sm:block hidden" />{" "}
                 Hut</span>{" "}
             </h1>
-            <div className="ss:flex hidden mr-0 ">{/* <Started /> */}</div>
+            <div className="ss:flex hidden mr-0 ">
+              <Started />
+              </div>
           </div>
           <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             Payment Method.
@@ -34,6 +36,9 @@ const Hero = () => (
             most likely to fit your needs. We examine annual percentage rates,
             annual fees.
           </p>
+        </div>
+        <div className="ss:hidden flex justify-center items-center">
+          <Started />
         </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
@@ -47,9 +52,6 @@ const Hero = () => (
           <div className="absolute z-[0] w-[50%] h-[50%] blue__gradient right-30 bottom-5 " />
         </div>
 
-        <div className="ss:hidden flex justify-center items-center">
-          {/* <Started /> */}
-        </div>
       </div>
     </div>
   </section>

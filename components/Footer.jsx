@@ -5,7 +5,7 @@ const Footer = () => {
 <footer
   className="bg-primary text-center text-white lg:text-left bottom-0">
   <div
-    className="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
+    className="flex items-center justify-center border-b-2 border-second-300 p-6 lg:justify-between">
     <div className="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
     </div>
@@ -75,11 +75,11 @@ const Footer = () => {
       </a>
     </div>
   </div>
-    <div className="w-full flex justify-center">
-      <p className="mx-auto">
+    <div className="w-full border-b-2 border-second-350 flex justify-center">
+      <p className="mx-auto text-second-350 font-normal">
         Copy&Right 2001
         </p>
-        </div>
+          </div>
   {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
   
 </footer>

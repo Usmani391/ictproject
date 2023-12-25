@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { br,com ,disc} from "../public/index";
-// import Started from "./Started"
+import Started from "./Started"
 
 
 
@@ -38,6 +38,9 @@ const Hero = () => (
           </p>
           </div>
         </div>
+        <div className="ss:hidden flex justify-center items-center">
+          <Started />
+        </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
           <Image
@@ -48,10 +51,6 @@ const Hero = () => (
           <div className="absolute top-30   z-[0] w-[40%] h-[35%] pink__gradient" />
           <div className="absolute z-[1]  w-[80%] h-[80%] white__gradient rounded-full bottom-27" />
           <div className="absolute z-[0] w-[50%] h-[50%] blue__gradient right-30 bottom-5 " />
-        </div>
-
-        <div className="ss:hidden flex justify-center items-center">
-          {/* <Started /> */}
         </div>
       </div>
     </div>

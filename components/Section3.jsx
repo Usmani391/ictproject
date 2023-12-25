@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { boy, dev, disc, man, robot } from "../public/index";
-// import Started from "./Started";
+import Started from "./Started";
 
 const Section3 = () => (
   <section id="home" className="flex justify-start items-start pt-6">
@@ -35,6 +35,9 @@ const Section3 = () => (
             annual fees.
           </p>
         </div>
+        <div className="ss:hidden flex justify-center items-center">
+          <Started />
+        </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
           <Image
@@ -45,10 +48,6 @@ const Section3 = () => (
           <div className="absolute top-30   z-[0] w-[40%] h-[35%] pink__gradient" />
           <div className="absolute z-[1]  w-[80%] h-[80%] white__gradient rounded-full bottom-27" />
           <div className="absolute z-[0] w-[50%] h-[50%] blue__gradient right-30 bottom-5 " />
-        </div>
-
-        <div className="ss:hidden flex justify-center items-center">
-          {/* <Started /> */}
         </div>
       </div>
     </div>
