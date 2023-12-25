@@ -1,9 +1,9 @@
 import Image from "next/image";
-const Card = ({ lan, y, inven, vers, uses, docs, log, youtub, frame }) => {
+const Card = ({ lan, cheat, inven, vers, uses, docs, log, youtub, frame }) => {
   return (
     <div
       key={lan}
-      className="block my-5 max-w-[350px]  bg-opacity-50 pb-4 rounded-2xl bg-gray-800 text-white shadow-lg font-sans font-normal shadow-teal-400 ">
+      className="block my-5 max-w-[350px]  bg-opacity-50 pb-4 rounded-2xl bg-gray-800 text-white shadow-lg border-[2px] border-teal-400  font-sans font-normal shadow-teal-400 ">
       <div className="relative  h-[320px] min-w-[200px] max-w-[350px] max-h-52 rounded-2xl ">
         <Image
           fill
@@ -35,16 +35,16 @@ const Card = ({ lan, y, inven, vers, uses, docs, log, youtub, frame }) => {
         <div className="border-b-2 border-teal-900 border-opacity-100  py-0.5 dark:border-opacity-50">
           <p className="mr-6">
             Documentation Link :{" "}
-            <a href={docs} className="text-blue-900 underline-offset-1">
+            <a href={docs} target="_blank" className="text-blue-900 underline-offset-1">
               Click here
             </a>
           </p>
         </div>
         <div className="border-b-2 border-teal-900 border-opacity-100  py-0.5 dark:border-opacity-50 flex justify-between">
-          <a href={youtub} className="block">
+          <a href={youtub} target="_blank"  className="block">
             Youtube Playlist
           </a>
-          <a href={youtub} className="block">
+          <a href={cheat}  target="_blank" className="block">
             Cheat Sheat
           </a>
         </div>
