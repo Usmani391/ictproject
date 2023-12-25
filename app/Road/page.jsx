@@ -1,17 +1,13 @@
 import Image from "next/image";
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Nav";
-import Card from "@/components/card";
-import data from "@/constant/data";
-import { bga, building2, robot } from "../../public/index";
-import Resources from "../../components/Resources";
+import { road } from "../../public/index";
 import Roadmap from "@/components/Roadmap";
 const Page = () => {
   return (
     <div className="w-full h-full">
       <Navbar val='Roadsmap' />
-      <div className="">
-        <Image src={building2}  className="h-1/2 w-11/12 mx-auto"/>
+      <div className="shadow-sm mb-32 shadow-second-300">
+        <Image src={road}  className="h-1/2 w-11/12 mx-auto"/>
       
       </div>
       <Roadmap/>

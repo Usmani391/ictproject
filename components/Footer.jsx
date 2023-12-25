@@ -3,14 +3,11 @@ const Footer = () => {
     // <!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com --> 
 // <!-- Footer container -->
 <footer
-  className="bg-primary text-center text-white lg:text-left bottom-0">
+  className="bg-primary text-center text-white lg:text-left bottom-0   ">
   <div
-    className="flex items-center justify-center border-b-2 border-second-300 p-6 lg:justify-between">
-    <div className="mr-12 hidden lg:block">
-      <span>Get connected with us on social networks:</span>
-    </div>
+    className="flex items-center justify-center border-b-2 border-second-300 p-6 lg:justify-between w-full">
     {/* <!-- Social network icons container --> */}
-    <div className="flex justify-center">
+    <div className="flex  mx-auto space-x-16  ">
       <a href="#!" className="mr-6 text-neutral-600 dark:text-neutral-200">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -75,11 +72,25 @@ const Footer = () => {
       </a>
     </div>
   </div>
-    <div className="w-full border-b-2 border-second-350 flex justify-center">
-      <p className="mx-auto text-second-350 font-normal">
-        Copy&Right 2001
-        </p>
-          </div>
+    <div className="w-full border-t-2 mt- border-second-350 flex justify-center">
+<div className=" rounded-lg shadow w-full  text-gradient ">
+    <div className="w-full mx-auto max-w-screen p-4 md:flex md:items-center md:justify-between">
+      <span className="text-sm sm:text-center ">© 2023 All Rights Reserved.
+    </span>
+    <ul className="flex flex-wrap items-center mt-3 w-1/2 justify-evenly text-sm font-medium sm:mt-0">
+        <li>
+            <a href="#" className="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" className="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="/contact" className="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</div>
+</div>
   {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
   
 </footer>

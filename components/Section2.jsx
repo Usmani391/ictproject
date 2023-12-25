@@ -21,20 +21,14 @@ const Hero = () => (
           <div className="flex flex-row justify-between items-start ">
             <h1 className="flex-1 font-poppins font-semibold ss:text-7xl text-5xl text-white ss:leading-[100px] leading-[75px]">
               <span className="text-gradient">
-              Programmer
-              <br className="sm:block hidden" />{" "}
-                Hut</span>{" "}
+              Resources Store
+              </span>{" "}
             </h1>
             <div className="ss:flex hidden mr-0">{/* <Started /> */}</div>
           </div>
-          <div className="sm:ml-[27%]">
-          <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Payment Method.
-          </h1>
+          <div className="sm:ml-20">
           <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
-            Our team of experts uses a methodology to identify the credit cards
-            most likely to fit your needs. We examine annual percentage rates,
-            annual fees.
+          Unlock your learning potential and achieve your goals with our comprehensive resources, offering tutorials, guides, documentation, and code examples to support your growth and understanding.
           </p>
           </div>
         </div>

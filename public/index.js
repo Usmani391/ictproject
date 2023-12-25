@@ -19,5 +19,6 @@ import styl from '@/public/line.png';
 import bga from '@/public/bga.png';
 import dev from '@/public/dev.png';
 import dart from '@/public/dart.png';
+import road from '@/public/roads.png';
 export 
-{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart};
+{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart,road};

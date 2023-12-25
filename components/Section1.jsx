@@ -19,22 +19,19 @@ const Hero = () => (
           </div> */}
           <div className="flex flex-row justify-between items-start w-full">
             <h1 className="flex-1 font-poppins font-semibold ss:text-7xl text-5xl text-white ss:leading-[100px] leading-[75px]">
-              <span className="text-gradient">
-              Programmer
-              <br className="sm:block hidden" />{" "}
-                Hut</span>{" "}
+              <span className="text-gradient text-6xl">
+              Silicon Sage
+              </span>
             </h1>
             <div className="ss:flex hidden mr-0 ">
               {/* <Started val="/" /> */}
               </div>
           </div>
-          <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+          {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             Payment Method.
-          </h1>
+          </h1> */}
           <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
-            Our team of experts uses a methodology to identify the credit cards
-            most likely to fit your needs. We examine annual percentage rates,
-            annual fees.
+          Elevate your tech journey with our curated resources and roadmaps. Unleash industry-leading IT insights at your fingertips. Achieve mastery in IT roles with our empowering platform.
           </p>
         </div>
         <div className="ss:hidden flex justify-center items-center">
