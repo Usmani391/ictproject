@@ -1,8 +1,10 @@
 // import styles from "../style";
 import {arrow}  from "../public/index";
-const Started = () => (
+const Started = ({val}) => (
+  <a href={val}>
   <div
     className="w-[140px] h-[140px] flex justify-center items-center   rounded-full bg-blue-gradient p-0.5 shadow-sm shadow-second-350   cursor-pointer">
+
       <div className="flex justify-center items-center flex-col bg-primary w-[100%] h-[100%] rounded-full">
         <div className="flex justify-start items-start flex-row">
           <p className=" font-poppins font-medium  text-[18px] leading-[23.4px]">
@@ -15,6 +17,7 @@ const Started = () => (
           </p>
       </div>
     </div>
+      </a>
 );
 
 export default Started;

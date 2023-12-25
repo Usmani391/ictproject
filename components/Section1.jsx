@@ -25,7 +25,7 @@ const Hero = () => (
                 Hut</span>{" "}
             </h1>
             <div className="ss:flex hidden mr-0 ">
-              <Started />
+              {/* <Started val="/" /> */}
               </div>
           </div>
           <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
@@ -38,7 +38,7 @@ const Hero = () => (
           </p>
         </div>
         <div className="ss:hidden flex justify-center items-center">
-          <Started />
+          {/* <Started /> */}
         </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
