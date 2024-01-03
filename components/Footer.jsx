@@ -5,7 +5,7 @@ const Footer = () => {
 <footer
   className="bg-primary text-center text-white lg:text-left">
   <div
-    className="flex items-center justify-center border-b-2 border-neutral-200 p-6 lg:justify-between">
+    className="flex items-center justify-center border-b-2 border-white shadow-md shadow-teal-300 p-6 lg:justify-between">
     <div className="mr-12 hidden lg:block">
       <span>Get connected with us on social networks:</span>
     </div>
@@ -91,13 +91,11 @@ const Footer = () => {
             <path
               d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
           </svg>
-          TW elements
+        Thinkers
         </h6>
         <p>
-          Here you can use rows and columns to organize your footer
-          content. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit.
-        </p>
+          Here you can find 
+        </p>best resources according to you intreset
       </div>
       {/* <!-- Products section --> */}
       <div className="">

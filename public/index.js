@@ -1,4 +1,4 @@
-import arrow from "@/public/arrow-up.svg";
+import arrow from "@/public/arrow.svg";
 import robot from "@/public/robot.png";
 import disc from "@/public/Discount.svg";
 import men3 from "@/public/men3.png";
@@ -18,7 +18,9 @@ import colorboy from '@/public/colorboy.png';
 import styl from '@/public/line.png';
 import bga from '@/public/bga.png';
 import dev from '@/public/dev.png';
+import bgr from  '@/public/bgr.png'
 import dart from '@/public/dart.png';
 import road from '@/public/roads.png';
+import prgg from '@/public/prgbg.jpg';
 export 
-{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart,road};
+{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart,road,bgr,prgg};

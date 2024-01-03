@@ -33,7 +33,7 @@ const Hero = () => (
           </div>
         </div>
         <div className="ss:hidden flex justify-center items-center">
-          <Started val='/prog' />
+          <Started val='/Resources' />
         </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
