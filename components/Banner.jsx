@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { disc, men,man,man1,boy, robot, colorboy, mantb } from "../public/index";
 
-const Hero = () => (
+const Banner = () => (
   <section id="home" className="flex justify-start items-start pt-6">
     <div className="xl:max-w-[1280px] mx-auto  w-full">
       <div
@@ -53,4 +53,4 @@ const Hero = () => (
   </section>
 );
 
-export default Hero;
+export default Banner;
