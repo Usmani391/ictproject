@@ -2,7 +2,6 @@ import Image from "next/image";
 import Navbar from "@/components/Nav";
 import {dream} from "../../public/index";
 import Resources from "@/components/Resources";
-import Roadmap from "@/components/Roadmap";
 const Page = () => {
   return (
     <div className="w-full h-full">

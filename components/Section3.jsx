@@ -10,13 +10,6 @@ const Section3 = () => (
         className="flex md:flex-row flex-col sm:py-16 py-2 xl:max-w-[1280px] w-full">
         <div
           className="flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 py-0 px-6">
-          {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-            <Image src={disc} alt="Discount" className="w-[32px] h-[32px]" />
-            <p className="font-poppins font-normal text-white ml-2">
-              <span className="text-white">20%</span> Discount For{" "}
-              <span className="text-white">1 Month</span> Account
-            </p>
-          </div> */}
           <div className="flex flex-row justify-between items-start w-full">
             <h1 className="flex-1 font-poppins font-semibold ss:text-7xl text-5xl text-white ss:leading-[100px] leading-[75px]">
               <span className="text-gradient">

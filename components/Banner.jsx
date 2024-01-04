@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {colorboy,boy} from "../public/index";
+import {boy} from "../public/index";
 
 const Banner = () => (
   <section id="home" className="flex justify-start items-start md:pt-6">
@@ -26,7 +26,7 @@ const Banner = () => (
           <Image
             src={boy}
             alt="billing"
-            className="w-[100%] h-[100%] relative z-[5]"
+            className="w-[100%] object-contain h-[100%] relative z-[5]"
           />
           <div className="absolute top-25   z-[0] w-[40%] h-[35%] pink__gradient" />
           <div className="absolute z-[1]  w-[80%] h-[80%] white__gradient rounded-full bottom-27" />
