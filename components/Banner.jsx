@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {colorboy} from "../public/index";
+import {colorboy,boy} from "../public/index";
 
 const Banner = () => (
   <section id="home" className="flex justify-start items-start md:pt-6">
@@ -24,7 +24,7 @@ const Banner = () => (
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
           <Image
-            src={colorboy}
+            src={boy}
             alt="billing"
             className="w-[100%] h-[100%] relative z-[5]"
           />
