@@ -22,5 +22,6 @@ import bgr from  '@/public/bgr.png'
 import dart from '@/public/dart.png';
 import road from '@/public/roads.png';
 import prgg from '@/public/prgbg.jpg';
+import favicon from '@/public/favicon.png';
 export 
-{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart,road,bgr,prgg};
+{ robo,arrow, robot, disc, com, man,men3,mantb, man1, br, boy ,building,building2,women,drone ,world,colorboy,styl,dev,bga,dart,road,bgr,prgg,favicon};
