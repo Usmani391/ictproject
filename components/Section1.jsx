@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { prgg } from "../public/index";
+import { prgg } from '../public/index';
 import Banner from './Banner';
 const Section1 = () => {
   return (

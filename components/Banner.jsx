@@ -25,7 +25,7 @@ const Banner = () => (
           className="flex flex-1  justify-center items-center my-10 relative">
           <Image
             src={boy}
-            alt="billing"
+            alt="boy"
             className="w-[100%] object-contain h-[100%] relative z-[5]"
           />
           <div className="absolute top-25   z-[0] w-[40%] h-[35%] pink__gradient" />
