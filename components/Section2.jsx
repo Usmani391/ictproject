@@ -1,39 +1,30 @@
 import Image from "next/image";
-import { br,com ,disc} from "../public/index";
+import { br} from "../public/index";
 import Started from "./Started"
 
 
 
 const Hero = () => (
-  <section id="home" className="flex justify-start items-start pt-6">
+  <section  className="flex justify-start items-start pt-6">
     <div className="xl:max-w-[1280px] mx-auto  w-full">
       <div
-        className="flex md:flex-row-reverse flex-col sm:py-16 py-2 xl:max-w-[1280px] w-full">
+        className="flex md:flex-row-reverse flex-col sm:py-16 py-2 xl:max-w-[1280px] w-full"> 
         <div
-          className="flex-1 flex flex-col justify-center items-center sm:w-2/5 sm:mx-auto  xl:px-0 sm:px-28   py-0 px-6">
-          {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
-            <Image src={disc} alt="Discount" className="w-[32px] h-[32px]" />
-            <p className="font-poppins font-normal text-white ml-2">
-              <span className="text-white">20%</span> Discount For{" "}
-              <span className="text-white">1 Month</span> Account
-            </p>
-          </div> */}
-          <div className="flex flex-row justify-between items-start ">
+          className="flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 py-0 px-6">
+          <div className="flex flex-row justify-between items-start w-full">
             <h1 className="flex-1 font-poppins font-semibold ss:text-7xl text-5xl text-white ss:leading-[100px] leading-[75px]">
               <span className="text-gradient">
               Resources Store
               </span>{" "}
             </h1>
-            <div className="ss:flex hidden mr-0">{/* <Started /> */}</div>
+            <div className="ss:flex hidden mr-0 ">{/* <Started /> */}</div>
           </div>
-          <div className="sm:ml-20">
           <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] max-w-[470px] mt-5">
           Unlock your learning potential and achieve your goals with our comprehensive resources, offering tutorials, guides, documentation, and code examples to support your growth and understanding.
           </p>
-          </div>
         </div>
         <div className="ss:hidden flex justify-center items-center">
-          <Started val='/prog' />
+          <Started val='/Resources' />
         </div>
         <div
           className="flex flex-1  justify-center items-center my-10 relative">
